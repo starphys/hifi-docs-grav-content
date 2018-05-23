@@ -4,7 +4,7 @@ taxonomy:
     category: docs
 ---
 
-By default, avatars in High Fidelity will use the built in standard set of animations.  However, these animations are generic and masculine, which doesn't always fit the character of some avatars, such as dainty ballerinas or cartoon foxes.  It is possible to modify the avatar animations by inserting new animations to replace existing ones.  Additionally, advanced technical animators can adjust the animation state machine and the interpolation and blend parameters for truly unique avatars.
+By default, avatars in High Fidelity will use the built in standard set of animations. However, these animations are generic and masculine, which doesn't always fit the character of some avatars, such as dainty ballerinas or cartoon foxes. It is possible to modify the avatar animations by inserting new animations to replace existing ones. Additionally, advanced technical animators can adjust the animation state machine and the interpolation and blend parameters for truly unique avatars.
 Here are some guidelines for creating animations in the proper format:
 + Animations must have the High Fidelity standard joint names
 + Animations must have the High Fidelity standard joint orientations (y down the bone) 
@@ -18,14 +18,14 @@ This document lists several ways to modify the avatar animations, from the easie
 
 #### Override Animation (Script)
 
-The script call [MyAvatar.overrideAnimation](https://docs.highfidelity.com/api-reference/namespaces/myavatar#.overrideAnimation) can be used to play any animation on the current avatar.  It will smoothly interpolate from the avatar's current pose into the start frame of the provided animation.
+The script call [MyAvatar.overrideAnimation](https://docs.highfidelity.com/api-reference/namespaces/myavatar#.overrideAnimation) can be used to play any animation on the current avatar. It will smoothly interpolate from the avatar's current pose into the start frame of the provided animation.
 If the animation is hosted remotely, you can use [AnimationCache.prefetch](https://docs.highfidelity.com/api-reference/namespaces/animationcache#.prefetch) to ensure that the animation is in-memory before playback. Otherwise you might see a few frames of t-pose as the animation is downloaded from the remote source.
-This animation will take complete control over all the avatars joints.  Inverse Kinematics of the hands and head for HMD users will be disabled.
+This animation will take complete control over all the avatars joints. Inverse Kinematics of the hands and head for HMD users will be disabled.
 [MyAvatar.restoreAnimation](https://docs.highfidelity.com/api-reference/namespaces/myavatar#.restoreAnimation) can be used to stop the override animation and restore the avatar to its normal set of animations.
 
 #### Override Role Animation (Script)
 
-The default animation state machine has a list of specific animations or  that can be overridden.  The  Roles MyAvatar.getAnimationRoles() script call can be used to get the list of roles for the current avatar.   Each one of these roles can be replaced by a custom animation via the MyAv call.atar.overrideRoleAnimation
+The default animation state machine has a list of specific animations or 'Roles' that can be overridden. The MyAvatar.getAnimationRoles() script call can be used to get the list of roles for the current avatar. Each one of these roles can be replaced by a custom animation via the MyAvatar.overrideRoleAnimation call. 
 Here is the current list of roles followed by a brief description.
 + rightHandGraspOpen - When hand controller trigger is not squeezed.
 + rightHandGraspClosed - When hand controller trigger is fully squeezed.
@@ -79,6 +79,6 @@ This file is in the JSON file and it contains a hierarchical tree of nodes simil
 The specific contents of this file are not yet documented, but will be soon. However, a content creator can perform a simple change by substituting the FBX urls with their own custom animations.
 For reference here is the current default [avatar-animation.json](https://github.com/highfidelity/hifi/blob/master/interface/resources/avatar/avatar-animation.json) file. 
 In the Settings > Avatar dialog the Avatar animation JSON field can be used to change the animation graph of the current avatar. ![](avatar-animation-json.png)
-Secondly, a animGraphUrl entry can be added to a specific avatar's FST file.  For example:
+Secondly, a animGraphUrl entry can be added to a specific avatar's FST file. For example:
     animGraphUrl = https://s3.amazonaws.com/hifi-public/tony/scoot-animation.json
 The above scoot-animtion.json file replaces the idle and walk animations with a sitting pose. It is intended to show an example of replacing some but not all of an avatar's default animations.
