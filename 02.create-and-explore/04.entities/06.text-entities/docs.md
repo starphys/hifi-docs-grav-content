@@ -30,9 +30,9 @@ Text entities have the properties common to all entities as well as one addition
 
 You can view and edit these properties in [Create Mode](../create-mode) by selecting the entity and then selecting the **Properties** tab in the *Edit* panel.
 
-## Example: Create a Green "Welcome" Sign
+## Example: Create a Green Sign with Pink Text
 
-For example, to create a text entity that displays the word "Welcome!" in big black letters on a green plane, complete the following steps:
+For example, to create a text entity that displays sample text in pink text on a green plane, complete the following steps:
 
 1. Create and position the text entity.
 2. Change and resize the text displayed.
@@ -51,12 +51,10 @@ To change and resize the text displayed, you need to edit the entity properties.
 
 1. With the text entity selected, click the **Properties** tab.
 2. Scroll to the bottom of the panel where you will find the Text entity specific properties.
-3. Change the text displayed to "Welcome!". For your own projects, if you plan to display a lot of text, you can first type the text into a plain text editor and then copy and paste the text into the **Text content** field. Press enter or click on another active field and the updated text should appear.
+3. Change the text to whatever you please. For your own projects, if you plan to display a lot of text, you can first type the text into a plain text editor and then copy and paste the text into the **Text content** field. Press enter or click on another active field and the updated text should appear.
 4. Change the size of the text. Below the **Text content** field is the **Line height** field. This value controls how big the font will be.
 
 If you use the up and down carats to change the value, the value will change by 0.005 per click. If you enter a value, you will see the text change as soon as you press enter. The Line height default value is 0.06. For this example, the Line height was set to 0.1550.
-
-![](welcome-text.PNG)
 
 If the text is too big to fit, you can increase the size of the entity.
 
@@ -66,10 +64,10 @@ To change the background and text colors, in the **Properties** tab:
 
 1. Scroll down to the **Text color** and **Background color** properties.
 2. Change the RGB values to the following:
-   - Text color- Black (Red: 0, Green:0, Blue: 0)
-   - Background color - Green (Red: 0, Green:255, Blue: 0).
+   - Text color- Black (Red: 255, Green:0, Blue: 0)
+   - Background color - Green (Red: 0, Green:64, Blue: 0).
 
-![](welcome-green.PNG)
+![](colored-text.PNG)
 
 If you use the carats to change the value, as you click to increase or decrease the value you should see the text or background change with each click. If you enter in the values directly, you will see the text or background change as soon as you press enter or click on another active field.
 

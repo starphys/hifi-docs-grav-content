@@ -33,19 +33,11 @@ You can view and edit these properties in [Create Mode](../create-mode) by selec
 To change the color of a cube to yellow:
 
 1. Add a Box entity by going to **Create** and clicking on the cube button.  
-
 2. When you add the cube, the Properties tab opens.
-
 3. Select the cube.
-
 4. Scroll down until you see the Entity color option.
-
-   ![](cube-properties.PNG)
-
+   ![](create-red-cube.PNG)
    The current values are Red: 255, Green: 0, and Blue: 0.
-
 5. To change the cube's color to yellow, change the Green value to 255.
-
-   ![](cube-yellow.PNG)
-
+   ![](create-yellow-cube.PNG)
    If you use the carats to change the value, as you increase the value you should see the cube change from red, to orange, to yellow. If you enter in 255, you will see the cube change to yellow as soon as you press enter.

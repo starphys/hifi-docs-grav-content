@@ -45,14 +45,9 @@ You can exit the Create Mode by closing the window on the tablet.
 - To pan around the object, click the right mouse button and drag left and right.
 - To orbit over and under the object, click the right mouse button and drag up and down.
 
-
 ### Adding Entities Using the create Toolbar
 
 When you click on the Create button, a window opens showing the different types of entities you can use. You can add an entity by clicking on the button for that entity. For instance, if you want to add a cube entity, click on cube. 
-
-![](create-add-cube.PNG)
-
-
 
 Entities can be of the following types:
 
@@ -75,11 +70,9 @@ You can edit an entity's position, rotation, and scale using your mouse or track
 
 To edit an entity using the mouse or trackpad, you can select the entity or find it in the List tab in Create mode. 
 
-![](select-entity.PNG)
+![](create-red-cube.PNG)
 
->>>>>By default, Light entities and Zone entities cannot be selected for editing. To be able to select Light entities, go to **Settings > Advanced Menus**, and then select **Edit Menu > Allow Selecting of Lights**. To select Zone entities, you must click on the Zone entity in the List tab.
-
-You can tell an entity is selected when you see the bounding box and arrows around it. These arrows are the rotate and stretch widgets.
+You can tell an entity is selected when you see the bounding box and handles around it. These handles are the rotate and stretch widgets.
 
 With the entity selected, you can:
 
@@ -110,11 +103,11 @@ Grabbing the black squares at the edges of the entity bounding box enables you t
 
 #### Rotating the Entity with the Mouse
 
-Grabbing any of the three curved arrows enables rotation about one axis.
+Grabbing any of the three multicolored circles enables rotation about one axis.
 
-- Grab one of the curved arrows to rotate on that axis.
-- Move the mouse closer to the object to snap to whole sizes.
-- Move the mouse further away to rotate as free wheel (no snapping).
+- Grab one of the circles to rotate on that axis.
+- Move the mouse around the object to rotate it.
+- The circle will display the rotation in degrees.
 - You can undo this action by pressing the **CTRL/Z **keys together.
 
 #### Duplicating the Entity with the Mouse
@@ -144,9 +137,6 @@ The *create* panel has three tabs: *Create*, *List*, and *Properties* and *Grid*
 ### List the Entities in the Domain
 
 To list all of the entities on the domain, in the *create* panel, click the *List* tab and then click *Refresh* on the top-left corner of the panel. You can filter by entity type and by distance from the current location.
-
-![](select-entity.PNG)
-
 
 ### Edit Entity Properties
 
