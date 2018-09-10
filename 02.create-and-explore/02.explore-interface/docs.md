@@ -21,7 +21,7 @@ You will start your High Fidelity journey in a tutorial space on your home domai
 
 ![](ExploreTutorial.PNG)
 
-When you are finished and ready to move on, walk through the Welcome portal to be taken to The Spot
+When you are finished and ready to move on, walk through the Welcome portal to be taken to The Spot.
 
 ![](EndTutorial.PNG)
 
