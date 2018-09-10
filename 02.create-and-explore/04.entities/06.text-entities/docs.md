@@ -64,7 +64,7 @@ To change the background and text colors, in the **Properties** tab:
 
 1. Scroll down to the **Text color** and **Background color** properties.
 2. Change the RGB values to the following:
-   - Text color- Black (Red: 255, Green:0, Blue: 0)
+   - Text color- Pink (Red: 255, Green:0, Blue: 255).
    - Background color - Green (Red: 0, Green:64, Blue: 0).
 
 ![](colored-text.PNG)

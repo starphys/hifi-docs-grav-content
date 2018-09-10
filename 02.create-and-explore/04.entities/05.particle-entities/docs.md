@@ -24,7 +24,7 @@ A particle entity first appears as a fountain of small white particles.
 
 Particle entities have the properties common to all entities as well as additional particle specific properties.
 
-When you create or select a Particle entity you can edit these properties from the Particle menu.
+When you create or select a Particle entity, you can edit these properties from the Particle menu.
 
 ![](particle-property.PNG)
 
